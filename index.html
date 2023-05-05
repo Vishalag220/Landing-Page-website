@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Estate</title>
+    <script src="script.js" type="text/Javascript"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header class="row container">
+    <a href="#" class="logo">
+         <img src="Images/Logo.png" alt="">
+    </a>
+    <div class="toogleMenu" onclick="toogleMenu();"></div>
+    <nav class="navigation row">
+        <ul class="row">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Properties</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="link-btn">Log In</a></li>
+        </ul>
+    </nav>
+   </header>
+    <section class="hero row container">
+        <div class="hero-content">
+            <h1>Best Way To Find The Perfect Destination..</h1>
+            <p>We Provide all services related to sell,rental or purchase of Real Estates</p>
+        <div class="search">
+            <div class="search-filter row">
+                <div class="active">Rent</div>
+                <div>Buy</div>
+                <div>Sell</div>
+            </div>
+            <div class="search-inputs row">
+                <div class="column">
+                    <label for="">Location</label>
+                 <div class="row">
+                    <input type="search" name="" id="" placeholder="Select Your City">
+                    <svg width="14" height="18" viewBox="0 0 14 18" fill="none">
+                        <path d="M10,1.375c-3.17,0-5.75,2.548-5.75,5.682c0,6.685,5.259,11.276,5.483,11.469c0.152,0.132,0.382,0.132,0.534,0c0.224-0.193,5.481-4.784,5.483-11.469C15.75,3.923,13.171,1.375,10,1.375 M10,17.653c-1.064-1.024-4.929-5.127-4.929-10.596c0-2.68,2.212-4.861,4.929-4.861s4.929,2.181,4.929,4.861C14.927,12.518,11.063,16.627,10,17.653 M10,3.839c-1.815,0-3.286,1.47-3.286,3.286s1.47,3.286,3.286,3.286s3.286-1.47,3.286-3.286S11.815,3.839,10,3.839 M10,9.589c-1.359,0-2.464-1.105-2.464-2.464S8.641,4.661,10,4.661s2.464,1.105,2.464,2.464S11.359,9.589,10,9.589"></path>
+                    </svg>
+                 </div>
+                </div>
+                <div class="column">
+                    <label for="">Property Type</label>
+                 <div class="row">
+                    <input type="search" name="" id="" placeholder="Choose Type">
+                    <svg width="14" height="18" viewBox="0 0 14 18" fill="none">
+                        <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"></path>
+                    </svg>
+                 </div>
+                </div>
+                <div class="column">
+                    <label for="">Price Range</label>
+                    <input type="search" name="" id="" placeholder="Choose Price Range">
+                </div>
+                <div><div class="submit-btn row">
+                    <svg width="14" height="18" viewBox="0 0 14 18" fill="none">
+                        <path d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z"></path>
+                    </svg>
+                </div></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="available container">
+        <h2>We are available in many well known cities of India</h2>
+        <div class="available-cards column">
+            <div class="row">
+                <img src="images/Jaipur.jpg" alt="">
+                 <h3>Jaipur</h3>
+            </div>
+            <div class="row">
+                <img src="images/Bombay.jpg" alt="">
+                 <h3>Bombay</h3>
+            </div>
+            <div class="row">
+                <img src="images/Udaipur.jpg" alt="">
+                 <h3>Udaipur</h3>
+            </div>
+            <div class="row">
+                <img src="images/Delhi.jpg" alt="">
+                 <h3>Delhi</h3>
+            </div>
+        </div>
+    </section>
+    <section class="recent container">
+        <div class="recent-title row">
+            <h2>Recently Added</h2>
+            <a href="#">See All</a>
+        </div>
+        <div class="recent-card column">
+            <div class="recent-card row">
+                <img src="" alt="">
+                <div class="r-c-content column">
+                    <h4>256,Vaishali Nagar,JAIPUR</h4>
+                    <div class="r-c-details row">
+                        <p>2 Bedrooms</p>
+                        <p>120m</p>
+                        <p>1 Garage</p>
+                    </div>
+                    <div class="post-rate row">
+                        <p>Posted by Vishal</p>
+                        <div class="r-rate">₹2,723,520</div>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-card row">
+                <img src="" alt="">
+                <div class="r-c-content column">
+                    <h4>154,Vidhyadhar Nagar,JAIPUR</h4>
+                    <div class="r-c-detail row">
+                        <p>2 Bedrooms</p>
+                        <p>100m</p>
+                        <p>1 Garage</p>
+                    </div>
+                    <div class="post-rate row">
+                        <p>Posted by Vishal</p>
+                        <div class="r-rate">₹1,024,567</div>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-card row">
+                <img src="" alt="">
+                <div class="r-c-content column">
+                    <h4>103,kotra,UDAIPUR</h4>
+                    <div class="r-c-detail row">
+                        <p>2 Bedrooms</p>
+                        <p>120m</p>
+                        <p>1 Garage</p>
+                    </div>
+                    <div class="post-rate row">
+                        <p>Posted by Vishal</p>
+                        <div class="r-rate">₹45,654,54</div>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-card row">
+                <img src="" alt="">
+                <div class="r-c-content column">
+                    <h4>356,Jhadol,UDAIPUR</h4>
+                    <div class="r-c-detail row">
+                        <p>2 Bedrooms</p>
+                        <p>120m</p>
+                        <p>1 Garage</p>
+                    </div>
+                    <div class="post-rate row">
+                        <p>Posted by Vishal</p>
+                        <div class="r-rate">₹55,465,44</div>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-card row">
+                <img src="" alt="">
+                <div class="r-c-content column">
+                    <h4>167,Karol Bagh,DELHI</h4>
+                    <div class="r-c-detail row">
+                        <p>2 Bedrooms</p>
+                        <p>120m</p>
+                        <p>1 Garage</p>
+                    </div>
+                    <div class="post-rate row">
+                        <p>Posted by Vishal</p>
+                        <div class="r-rate">₹46,565,44</div>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-card row">
+                <img src="" alt="">
+                <div class="r-c-content column">
+                    <h4>56,Lajpat Nagar,DELHI</h4>
+                    <div class="r-c-detail row">
+                        <p>2 Bedrooms</p>
+                        <p>120m</p>
+                        <p>1 Garage</p>
+                    </div>
+                    <div class="post-rate row">
+                        <p>Posted by Vishal</p>
+                        <div class="r-rate">₹76,443,24</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section class="find row container">
+    <div class="find-content">
+        <h1>Find Your Best Real Estate</h1>
+        <p>We Provide all services related to sell,rental or purchase of Real Estates</p>
+        <a href="#" class="find-btn">Contact Us</a>
+    </div>
+   </section>
+   <footer class="container">
+    <div class="footer row">
+        <div>
+            <a href="#" class="logo">
+                <img src="images/Logo.png" alt="">
+           </a>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde ipsam ipsum animi velit commodi fugiat aliquid id, sed sapiente, accusamus sit facilis a est nobis numquam voluptate voluptas nihil, sequi similique dolorum repellendus iste iusto! Aspernatur distinctio delectus beatae odit.</p>
+           <div class="footer-links row">
+            <a href="#">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path fill="none" d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z"></path>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path fill="none" d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z"></path>
+                </svg>
+            </a>
+           </div>
+        </div>
+        <div>
+            <h4>Take a Tour</h4>
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Pricing</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <h4>Our Company</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Agents</a></li>
+                <li><a href="#">Contact us</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <h4>Subscribe</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis voluptate laboriosam natus pariatur praesentium. Fugiat ut laudantium ipsam distinctio aperiam.</p>
+            <div class="footer-input row">
+                <input type="email" name="" id="" placeholder="Email Address">
+                <div class="row">
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path d="M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="copy-right">Copyright &copy; 2023 by Vishal</p>
+   </footer>
+</body>
+</html>
